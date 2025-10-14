@@ -29,7 +29,7 @@ class San_Pham:
         self.__giam_gia = float(input("giảm giá"))
 
     def xuat_tt_sp(self):
-        print(f"Sản phẩm {self.__ten_san_pham} có giá {self.__gia} và được giảm giá {self.__giam_gia} và thuế nhập khẩu: {self.thue_NK}")
+        print(f"Sản phẩm {self.__ten_san_pham} có giá {self.__gia} và được giảm giá {self.__giam_gia} và thuế nhập khẩu: {self.thue_NK()}")
     
     def __str__(self):
-        print(f"Sản phẩm {self.__ten_san_pham} có giá {self.__gia} và được giảm giá {self.__giam_gia} và thuế NK: {self.thue_NK}")
+        print(f"Sản phẩm {self.__ten_san_pham} có giá {self.__gia} và được giảm giá {self.__giam_gia} và thuế NK: {self.thue_NK()}")
