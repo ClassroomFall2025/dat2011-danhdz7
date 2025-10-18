@@ -31,7 +31,7 @@ class SinhVienIT(SinhVienPoly):
         self.html = html
         self.css = css
     def get_diem(self):
-        return (set.java*2 + self.html + self.css)/4
+        return (self.java*2 + self.html + self.css)/4
     
 class SinhVienBiz(SinhVienPoly):
     def __init__(self, ten_sinh_vien, nganh_hoc, marketing, sales):
