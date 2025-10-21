@@ -33,3 +33,5 @@ class San_Pham:
     
     def __str__(self):
         print(f"Sản phẩm {self.__ten_san_pham} có giá {self.__gia} và được giảm giá {self.__giam_gia} và thuế NK: {self.thue_NK()}")
+
+        
