@@ -58,3 +58,4 @@ class QuanLySinhVien:
         self.dssv.sort(key=lambda sv: sv.get_diem(), reverse=True)
         print("\nĐã sắp xếp danh sách sinh viên theo điểm (cao -> thấp):")
         self.xuat_dssv()
+

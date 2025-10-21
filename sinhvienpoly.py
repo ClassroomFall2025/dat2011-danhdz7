@@ -40,3 +40,5 @@ class SinhVienBiz(SinhVienPoly):
         self.sales = sales
     def get_diem(self):
         return (self.marketing *2 + self.sales)/3
+
+
